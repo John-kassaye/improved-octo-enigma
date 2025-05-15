@@ -12,14 +12,6 @@ public class Room {
         this.price = price;
        }
 
-        public int getNumberOfBeds() {
-            return numberOfBeds;
-        }
-
-        public double getPrice() {
-            return price;
-        }
-
         public boolean isOccupied(){
         return occupied;
         }
