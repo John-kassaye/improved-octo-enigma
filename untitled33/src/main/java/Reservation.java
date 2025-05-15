@@ -19,7 +19,7 @@ public class Reservation {
     }
 
     public double getPrice() {
-        double pricePerNight = 110;
+        double pricePerNight = 124;
         if (roomType.equalsIgnoreCase("king")){
             pricePerNight = 139;
         }
