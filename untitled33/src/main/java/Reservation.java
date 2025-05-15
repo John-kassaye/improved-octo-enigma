@@ -2,11 +2,11 @@
 
 public class Reservation {
 
-    String roomType;
-    double price;
-    int numberOfNights;
-    boolean isWeekends;
-    double reservationTotal;
+    private String roomType;
+    private double price;
+    private int numberOfNights;
+    private boolean isWeekends;
+    private double reservationTotal;
 
     public Reservation(String roomType, double price, int numberOfNights) {
         this.roomType = roomType;
@@ -30,7 +30,7 @@ public class Reservation {
         return pricePerNight;
     }
 
-    public int getNumberOfNights() {
+    public double getNumberOfNights() {
         return numberOfNights;
     }
 
